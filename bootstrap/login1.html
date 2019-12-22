@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/d371356579.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-info">
+    <div class="container">  
+        <a class="navbar-brand" href="#"><i class="fas fa-search"></i> YELEP</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>         
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">  
+           <ul class="navbar-nav mr-auto">
+           </ul>            
+          <ul class="navbar-nav navbar-right">
+             <li class="nav-item">
+        <a class="nav-link" href="site.html">Home </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="destn.html">Destinations</a>
+      </li>         
+            <li class="nav-item active"><a class="nav-link" href="login1.html">SignUp <i class="fas fa-user-plus"><span class="sr-only">(current)</span></i></a></li>                                      
+          </ul>             
+        </div>
+    </div>
+</nav> 
+
+<section>
+  <style>
+    body{
+      background: aliceblue;
+      padding-top: 70px;
+    }
+    </style>
+  <div class="container-fluid">
+  <h1 class="text-center text-capitalize ">Subscribe</h1>
+  <div class="w-50 mx-auto">
+  <form action="/action_page.php">
+    <div class="form-group">
+     <h5 class="text-center text-capitalize ">Sign Up to get Offers at Special Prices!!
+     </h5>
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" autocomplete="off
+      ">
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+</section>
+</body>
+</html>
